@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>员工列表</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/datasky.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="header">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Datasky</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页</a></li>
+                    <li class="active"><a href="#">员工</a></li>
+                    <li><a href="#">任务</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">员工管理</div>
+                <ul class="list-group">
+                    <li class="list-group-item">员工列表</li>
+                    <li class="list-group-item">添加员工</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-9">
+            <form>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">员工列表</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="left">
+                            <input type="text" class="form-control" id="" placeholder="输入关键字搜索">
+                        </div>
+                        <div class="right">
+                            <button type="button" class="btn btn-danger">批量删除</button>
+                            <button type="button" class="btn btn-primary">添加新成员</button>
+                        </div>
+                    </div>
+
+
+                    <table class="table  table-hover">
+                        <th>选择</th>
+                        <th>工号</th>
+                        <th>姓名</th>
+                        <th>性别</th>
+                        <th>年龄</th>
+                        <th>手机mac地址</th>
+                        <th>操作</th>
+                        <tr>
+                            <td><input type="checkbox" name="" value=""></td>
+                            <td>产品 A</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>
+                                <button type="button" class="btn btn-warning btn-xs">修改</button>
+                                <button type="button" class="btn btn-danger btn-xs">删除</button>
+                                <button type="button" class="btn btn-primary btn-xs">详细</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="" value=""></td>
+                            <td>产品 A</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>
+                                <button type="button" class="btn btn-warning btn-xs">修改</button>
+                                <button type="button" class="btn btn-danger btn-xs">删除</button>
+                                <button type="button" class="btn btn-primary btn-xs">详细</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="" value=""></td>
+                            <td>产品 A</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>200</td>
+                            <td>
+                                <button type="button" class="btn btn-warning btn-xs">修改</button>
+                                <button type="button" class="btn btn-danger btn-xs">删除</button>
+                                <button type="button" class="btn btn-primary btn-xs">详细</button>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <div class="panel-footer">
+                        <ul class="pagination" style="margin:0">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
